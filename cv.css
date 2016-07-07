@@ -1,0 +1,77 @@
+body{
+background-color: white;
+}
+
+#europass_image{
+	position: absolute;
+	height: auto; 
+    width: auto; 
+	max-width: 200px; 
+	top:20px;
+	
+   
+	
+}
+ h2{
+ font-size:110%;
+	color:blue;
+}
+ h1{
+ font-size:200%;
+	color:blue;
+}
+
+table#languages_table{
+	line-height:135%;
+	position:relative;
+	/*left:-15%;*/
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+
+	
+#languages_table>tbody>tr>td{
+border: 1px solid black;
+}  
+
+#languages_table>tbody>tr>th{
+border: 1px solid black;
+}  
+
+
+
+div.left{
+	
+	position:relative;
+	z-index: 2;
+	left:17%;
+}
+header.header{
+	position:relative;
+	z-index: 1;
+	top:15px;
+	float:inherit;
+}
+
+header{ 
+	float:left;
+	
+	width:240px;
+	text-align: right;
+}
+
+section{
+	
+	position:relative;
+	margin-left:265px;
+	
+	align:right;
+	
+	
+}
+
+
+
+
+
